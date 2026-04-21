@@ -3,118 +3,359 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thể thao - Lớp 12a6 Nhóm 2</title>
+    <title>Thể thao - Lớp 12a6</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <div class="header-content">
-            <div class="branding">
-                <h1 class="main-title">Lớp 12a6</h1>
-                <p class="subtitle">Thể thao • Tương lai</p>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="logo-section">
+            <div class="circle-logo">12A6</div>
+            <h1>LỚP 12A6</h1>
+            <p class="motto">Thể thao • Tương lai</p>
+        </div>
+        <nav class="side-nav">
+            <a href="index.html" class="nav-item">
+                <span class="nav-icon">🏠</span>
+                <span>Trang chủ</span>
+            </a>
+            <a href="thethao.html" class="nav-item active">
+                <span class="nav-icon">⚽</span>
+                <span>Thể thao</span>
+            </a>
+            <a href="nghethuat.html" class="nav-item">
+                <span class="nav-icon">🎭</span>
+                <span>Nghệ thuật</span>
+            </a>
+        </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero with Side Image -->
+        <section class="hero-side">
+            <div class="hero-text-box">
+                <h2>Hoạt động<br>Thể thao</h2>
+                <p>Ngày 28/3 - Thể hiện tinh thần lớp</p>
+                <div class="hero-features">
+                    <div class="feature">
+                        <div class="feature-num">01</div>
+                        <div class="feature-text">Sức mạnh</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-num">02</div>
+                        <div class="feature-text">Chiến thắng</div>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-num">03</div>
+                        <div class="feature-text">Đoàn kết</div>
+                    </div>
+                </div>
             </div>
-            <nav class="navbar">
-                <ul class="nav-menu">
-                    <li><a href="index.html" class="nav-link">Trang chủ</a></li>
-                    <li><a href="thethao.html" class="nav-link active">Thể thao</a></li>
-                    <li><a href="nghethuat.html" class="nav-link">Nghệ thuật</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+            <div class="hero-image-box">
+                <img src="anh4.jpg" alt="Sports">
+            </div>
+        </section>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-content">
-            <h2 class="hero-title">Hoạt động Thể thao</h2>
-            <p class="hero-description">Ngày 28/3 - Thể hiện tinh thần lớp</p>
-        </div>
-        <div class="hero-image">
-            <img src="anh4.jpg" alt="Thể thao">
-        </div>
-    </section>
-
-    <!-- Values Section -->
-    <section class="about-section">
-        <div class="container">
-            <h2 class="section-title">Tinh thần thể thao</h2>
+        <!-- Tinh thần thể thao -->
+        <section class="spirit-section">
+            <h2 class="section-heading">Tinh thần thể thao</h2>
             
-            <div class="values-container">
-                <div class="value-item">
-                    <div class="value-number">01</div>
-                    <h3 class="value-title">Sức mạnh</h3>
-                    <p class="value-text">Rèn luyện thể chất và tinh thần</p>
-                    <div class="value-icon">💪</div>
+            <div class="spirit-grid">
+                <div class="spirit-item large">
+                    <div class="spirit-number">01</div>
+                    <h3>Sức mạnh</h3>
+                    <p>Rèn luyện thể chất và tinh thần không ngừng</p>
+                    <div class="spirit-icon">💪</div>
                 </div>
-                <div class="value-item">
-                    <div class="value-number">02</div>
-                    <h3 class="value-title">Chiến thắng</h3>
-                    <p class="value-text">Nỗ lực hết mình để đạt thành tích cao</p>
-                    <div class="value-icon">🏆</div>
+                <div class="spirit-item">
+                    <div class="spirit-number">02</div>
+                    <h3>Chiến thắng</h3>
+                    <p>Nỗ lực hết mình để đạt thành tích cao</p>
+                    <div class="spirit-icon">🏆</div>
                 </div>
-                <div class="value-item">
-                    <div class="value-number">03</div>
-                    <h3 class="value-title">Đoàn kết</h3>
-                    <p class="value-text">Cùng nhau vượt qua thử thách</p>
-                    <div class="value-icon">🤝</div>
+                <div class="spirit-item">
+                    <div class="spirit-number">03</div>
+                    <h3>Đoàn kết</h3>
+                    <p>Cùng nhau vượt qua thử thách</p>
+                    <div class="spirit-icon">🤝</div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Gallery Section -->
-    <section class="gallery-section">
-        <div class="container">
-            <h2 class="section-title">Hình ảnh sự kiện</h2>
+        <!-- Photo Grid with Patterns -->
+        <section class="gallery-pattern">
+            <h2 class="section-heading">Hình ảnh sự kiện</h2>
             
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="anh1.jpg" alt="Ảnh sự kiện 1">
-                    <div class="gallery-overlay"></div>
+            <div class="pattern-grid">
+                <div class="pattern-item p-big">
+                    <img src="anh1.jpg" alt="Event 1">
+                    <div class="overlay-text">Năng động</div>
                 </div>
-                <div class="gallery-item">
-                    <img src="anh2.jpg" alt="Ảnh sự kiện 2">
-                    <div class="gallery-overlay"></div>
+                <div class="pattern-item">
+                    <img src="anh2.jpg" alt="Event 2">
+                    <div class="overlay-text">Vui tươi</div>
                 </div>
-                <div class="gallery-item">
-                    <img src="anh3.jpg" alt="Ảnh sự kiện 3">
-                    <div class="gallery-overlay"></div>
+                <div class="pattern-item">
+                    <img src="anh3.jpg" alt="Event 3">
+                    <div class="overlay-text">Mạnh mẽ</div>
                 </div>
-                <div class="gallery-item">
-                    <img src="anh4.jpg" alt="Ảnh sự kiện 4">
-                    <div class="gallery-overlay"></div>
+                <div class="pattern-item">
+                    <img src="anh4.jpg" alt="Event 4">
+                    <div class="overlay-text">Hình thành</div>
                 </div>
-                <div class="gallery-item">
-                    <img src="anh5.jpg" alt="Ảnh sự kiện 5">
-                    <div class="gallery-overlay"></div>
+                <div class="pattern-item p-big">
+                    <img src="anh5.jpg" alt="Event 5">
+                    <div class="overlay-text">Thắng lợi</div>
                 </div>
-                <div class="gallery-item">
-                    <img src="anh6.jpg" alt="Ảnh sự kiện 6">
-                    <div class="gallery-overlay"></div>
+                <div class="pattern-item">
+                    <img src="anh6.jpg" alt="Event 6">
+                    <div class="overlay-text">Đoàn kết</div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-column">
-                    <h4>Liên hệ</h4>
+        <!-- Footer -->
+        <footer class="footer-modern">
+            <div class="footer-split">
+                <div class="footer-left">
+                    <h4>Lớp 12a6</h4>
+                    <p>Thể thao • Tương lai</p>
+                </div>
+                <div class="footer-center">
+                    <h5>Liên hệ</h5>
                     <p>Trưởng nhóm 6<br><a href="https://www.facebook.com/bich.ngoc.300158">Trang cá nhân</a></p>
                 </div>
-                <div class="footer-column">
-                    <h4>Về chúng tôi</h4>
-                    <p>Lớp 12a6 - Chuyên trang thể thao</p>
-                </div>
-                <div class="footer-column">
-                    <h4>Bản quyền</h4>
+                <div class="footer-right">
                     <p>&copy; 2026 Nhóm 6 Lớp 12a6</p>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </main>
+
+    <style>
+        /* Hero Side Section */
+        .hero-side {
+            display: grid;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 60px;
+            align-items: center;
+            margin-bottom: 80px;
+            padding: 0;
+        }
+
+        .hero-text-box {
+            padding: 60px 40px;
+            background: linear-gradient(135deg, #fef3c7 0%, #fff7ed 100%);
+            border-radius: 15px;
+            animation: slideInLeft 0.8s ease;
+        }
+
+        .hero-text-box h2 {
+            font-size: 3rem;
+            color: #1f2937;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 15px;
+        }
+
+        .hero-text-box p {
+            font-size: 1.1rem;
+            color: #6b7280;
+            margin-bottom: 30px;
+        }
+
+        .hero-features {
+            display: flex;
+            gap: 20px;
+        }
+
+        .feature {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            flex: 1;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .feature-num {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #dc2626;
+            margin-bottom: 8px;
+        }
+
+        .feature-text {
+            font-size: 0.85rem;
+            color: #6b7280;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .hero-image-box {
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+            animation: slideInRight 0.8s ease;
+        }
+
+        .hero-image-box img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.4s ease;
+        }
+
+        .hero-image-box:hover img {
+            transform: scale(1.08);
+        }
+
+        /* Spirit Section */
+        .spirit-section {
+            margin-bottom: 80px;
+        }
+
+        .spirit-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr;
+            gap: 30px;
+        }
+
+        .spirit-item {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            border-left: 4px solid #f97316;
+        }
+
+        .spirit-item.large {
+            grid-row: span 1;
+        }
+
+        .spirit-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .spirit-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: #fef3c7;
+            margin-bottom: 10px;
+        }
+
+        .spirit-item h3 {
+            font-size: 1.4rem;
+            color: #1f2937;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .spirit-item p {
+            color: #6b7280;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+        }
+
+        .spirit-icon {
+            font-size: 2.5rem;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            opacity: 0.3;
+        }
+
+        /* Pattern Gallery */
+        .gallery-pattern {
+            margin-bottom: 80px;
+        }
+
+        .pattern-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-auto-rows: 200px;
+            gap: 15px;
+        }
+
+        .pattern-item {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.4s ease;
+        }
+
+        .pattern-item.p-big {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+
+        .pattern-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .pattern-item:hover img {
+            transform: scale(1.12) rotate(2deg);
+        }
+
+        .overlay-text {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            background: rgba(255, 255, 255, 0.95);
+            color: #1f2937;
+            padding: 10px 18px;
+            border-radius: 6px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            transform: translateY(30px);
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .pattern-item:hover .overlay-text {
+            transform: translateY(0);
+            opacity: 1;
+        }
+
+        @media (max-width: 768px) {
+            .hero-side {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .hero-text-box {
+                padding: 40px;
+            }
+
+            .hero-text-box h2 {
+                font-size: 2rem;
+            }
+
+            .spirit-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pattern-grid {
+                grid-template-columns: repeat(2, 1fr);
+                grid-auto-rows: 150px;
+            }
+
+            .pattern-item.p-big {
+                grid-column: span 1;
+                grid-row: span 1;
+            }
+        }
+    </style>
 </body>
 </html>
