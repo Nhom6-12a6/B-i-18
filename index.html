@@ -1,113 +1,166 @@
 <!DOCTYPE html>
 <html lang="vi">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Trang chủ - Lớp 12a6 Nhóm 2</title>
-		<link href="styles.css" rel="stylesheet" type="text/css">
-	</head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ - Lớp 12a6 Nhóm 2</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- Header with Logo -->
+    <header class="header">
+        <div class="header-content">
+            <div class="branding">
+                <h1 class="main-title">Lớp 12a6</h1>
+                <p class="subtitle">Năng động • Đam mê • Tỏa sáng</p>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Trang chủ</a></li>
+                    <li><a href="thethao.html" class="nav-link">Thể thao</a></li>
+                    <li><a href="nghethuat.html" class="nav-link">Nghệ thuật</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-	<body>
-		<nav class="navbar">
-			<div class="nav-container">
-				<h2 class="logo">Lớp 12a6</h2>
-				<p class="tagline">Năng động - Đam mê - Tỏa sáng</p>
-				<ul class="nav-menu">
-					<li><a href="index.html" class="active">Trang chủ</a></li>
-					<li><a href="thethao.html">Thể thao</a></li>
-					<li><a href="nghethuat.html">Nghệ thuật</a></li>
-				</ul>
-			</div>
-		</nav>
+    <!-- Hero Section with Image on Right -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h2 class="hero-title">Chào mừng ngày 26/3</h2>
+            <p class="hero-description">Lớp 12a6 - Năng động, Đam mê, Tỏa sáng</p>
+            <a href="#about" class="cta-button">Khám phá ngay</a>
+        </div>
+        <div class="hero-image">
+            <img src="anh9.jpg" alt="Lớp 12a6">
+        </div>
+    </section>
 
-		<div class="hero">
-			<div class="hero-image">
-				<img src="anh9.jpg" alt="Lớp 12a6">
-			</div>
-			<div class="hero-content">
-				<h1>Chào mừng ngày 26/3</h1>
-				<p>Lớp 12a6 - Năng động, Đam mê, Tỏa sáng</p>
-				<a href="#highlights" class="btn-secondary">Khám phá</a>
-			</div>
-		</div>
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2 class="section-title">Về chúng tôi</h2>
+            <p class="section-description">Lớp 12a6 là một lớp học năng động, đầy sáng tạo và luôn nỗ lực hết mình trong mọi hoạt động</p>
+            
+            <div class="values-container">
+                <div class="value-item">
+                    <div class="value-number">01</div>
+                    <h3 class="value-title">Năng động</h3>
+                    <p class="value-text">Hoạt động năng nổ và hiệu quả trong mọi lĩnh vực</p>
+                    <div class="value-icon">🎯</div>
+                </div>
+                <div class="value-item">
+                    <div class="value-number">02</div>
+                    <h3 class="value-title">Đam mê</h3>
+                    <p class="value-text">Cháy hết mình trong các cuộc chơi và học tập</p>
+                    <div class="value-icon">🔥</div>
+                </div>
+                <div class="value-item">
+                    <div class="value-number">03</div>
+                    <h3 class="value-title">Tỏa sáng</h3>
+                    <p class="value-text">Giành những giải thưởng cao nhất và thành công</p>
+                    <div class="value-icon">⭐</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<section class="values">
-			<h2>Giá trị cốt lõi</h2>
-			<div class="values-grid">
-				<div class="value-card">
-					<div class="value-badge">NĂNG ĐỘNG</div>
-					<div class="value-icon">🎯</div>
-					<h3>Năng động</h3>
-					<p>Hoạt động năng nổ và hiệu quả trong mọi lĩnh vực</p>
-				</div>
-				<div class="value-card">
-					<div class="value-badge">ĐAM MÊ</div>
-					<div class="value-icon">🔥</div>
-					<h3>Đam mê</h3>
-					<p>Cháy hết mình trong các cuộc chơi và học tập</p>
-				</div>
-				<div class="value-card">
-					<div class="value-badge">TỎA SÁNG</div>
-					<div class="value-icon">⭐</div>
-					<h3>Tỏa sáng</h3>
-					<p>Giành những giải thưởng cao nhất và thành công</p>
-				</div>
-			</div>
-		</section>
+    <!-- Activities Section -->
+    <section class="activities-section">
+        <div class="container">
+            <h2 class="section-title">Hoạt động nổi bật</h2>
+            
+            <div class="activity-grid">
+                <div class="activity-card featured">
+                    <div class="activity-image">
+                        <img src="anh9.jpg" alt="Học siêu">
+                        <span class="activity-tag">Học tập</span>
+                    </div>
+                    <div class="activity-info">
+                        <h3>Học siêu - Chơi đỉnh</h3>
+                        <p>Cung cấp năng lượng mạnh mẽ giúp bé học thật vui</p>
+                    </div>
+                </div>
 
-		<section class="highlights" id="highlights">
-			<h2>Điểm nổi bật</h2>
-			<div class="highlights-grid">
-				<div class="highlight-card">
-					<div class="highlight-badge">Học tập</div>
-					<img src="anh9.jpg" alt="Học siêu">
-					<h3>Học siêu - Chơi đỉnh</h3>
-					<p>Cung cấp năng lượng mạnh mẽ giúp bé học thật vui</p>
-				</div>
-				<div class="highlight-card">
-					<div class="highlight-badge">28/3</div>
-					<img src="anh2.jpg" alt="Thể thao">
-					<h3>Hoạt động Thể thao</h3>
-					<p>Lớp học năng động với tinh thần vui chơi</p>
-					<a href="thethao.html" class="btn-secondary">Xem thêm</a>
-				</div>
-				<div class="highlight-card">
-					<div class="highlight-badge">Văn nghệ</div>
-					<img src="anh8.jpg" alt="Nghệ thuật">
-					<h3>Hoạt động Văn nghệ</h3>
-					<p>Tài năng nghệ thuật của lớp 12a6</p>
-					<a href="nghethuat.html" class="btn-secondary">Xem thêm</a>
-				</div>
-			</div>
-		</section>
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="anh2.jpg" alt="Thể thao">
+                        <span class="activity-tag">28/3</span>
+                    </div>
+                    <div class="activity-info">
+                        <h3>Hoạt động Thể thao</h3>
+                        <p>Lớp học năng động với tinh thần vui chơi</p>
+                        <a href="thethao.html" class="activity-link">Xem thêm →</a>
+                    </div>
+                </div>
 
-		<section class="gallery-preview">
-			<h2>Hình ảnh hoạt động</h2>
-			<div class="gallery-grid">
-				<div class="gallery-item"><img src="anh1.jpg" alt="Ảnh 1"></div>
-				<div class="gallery-item"><img src="anh2.jpg" alt="Ảnh 2"></div>
-				<div class="gallery-item"><img src="anh4.jpg" alt="Ảnh 4"></div>
-				<div class="gallery-item"><img src="anh5.jpg" alt="Ảnh 5"></div>
-				<div class="gallery-item"><img src="anh6.jpg" alt="Ảnh 6"></div>
-				<div class="gallery-item"><img src="anh7.jpg" alt="Ảnh 7"></div>
-			</div>
-		</section>
+                <div class="activity-card">
+                    <div class="activity-image">
+                        <img src="anh8.jpg" alt="Nghệ thuật">
+                        <span class="activity-tag">Văn nghệ</span>
+                    </div>
+                    <div class="activity-info">
+                        <h3>Hoạt động Văn nghệ</h3>
+                        <p>Tài năng nghệ thuật của lớp 12a6</p>
+                        <a href="nghethuat.html" class="activity-link">Xem thêm →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-		<footer class="footer">
-			<div class="footer-content">
-				<div class="footer-section">
-					<h4>Liên hệ</h4>
-					<p>Trưởng nhóm 6<br><a href="https://www.facebook.com/bich.ngoc.300158">Trang cá nhân</a></p>
-				</div>
-				<div class="footer-section">
-					<h4>Về chúng tôi</h4>
-					<p>Lớp 12a6 - Năng động, Đam mê, Tỏa sáng</p>
-				</div>
-				<div class="footer-section">
-					<h4>Bản quyền</h4>
-					<p>&copy; 2026 Nhóm 6 Lớp 12a6</p>
-				</div>
-			</div>
-		</footer>
-	</body>
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Khoảnh khắc lớp học</h2>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="anh1.jpg" alt="Ảnh 1">
+                    <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="anh2.jpg" alt="Ảnh 2">
+                    <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="anh4.jpg" alt="Ảnh 4">
+                    <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="anh5.jpg" alt="Ảnh 5">
+                    <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="anh6.jpg" alt="Ảnh 6">
+                    <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item">
+                    <img src="anh7.jpg" alt="Ảnh 7">
+                    <div class="gallery-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>Liên hệ</h4>
+                    <p>Trưởng nhóm 6<br><a href="https://www.facebook.com/bich.ngoc.300158">Trang cá nhân</a></p>
+                </div>
+                <div class="footer-column">
+                    <h4>Về lớp</h4>
+                    <p>Lớp 12a6 - Năng động, Đam mê, Tỏa sáng</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Bản quyền</h4>
+                    <p>&copy; 2026 Nhóm 6 Lớp 12a6</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
